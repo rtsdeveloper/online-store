@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Store:Buy Now</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        img {
+            width: 150px;
+        }
+
+        tr,
+        th,
+        td {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text-center">Store API Data in Table</h1>
+    <div class="container">
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th class="text-center" scope="col">Product</th>
+                    <th class="text-center" scope="col">Category</th>
+                    <th class="text-center" scope="col">Discription</th>
+                    <th class="text-center" scope="col">Price($)</th>
+                    <th class="text-center" scope="col">Image</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+    <script src="/js/custom.js"></script>
+</body>
+
+</html>
